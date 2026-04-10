@@ -2,18 +2,13 @@
   "name": "lcdDisplay-uart",
   "version": "0.1.0",
   "description": "Fork MakeCode for DFRobot DFR0997 ColorScreen with added UART initialization while preserving existing API.",
-  "license": "MIT",
+  "license": "CC",
   "dependencies": {
     "core": "*"
   },
   "files": [
     "lcdDisplay.ts",
-    "_locales/zh-cn/lcdDisplay-strings.json",
-    "_locales/zh-cn/lcdDisplay-jsdoc-strings.json",
     "README.md"
-  ],
-  "testFiles": [
-    "test.ts"
   ],
   "targetVersions": {
     "target": "8.0.8",
