@@ -1,12 +1,11 @@
 {
   "name": "a4 ms-vision",
   "version": "0.1.0",
-  "description": "Fork MakeCode for DFRobot DFR0997 ColorScreen with added UART initialization while preserving existing API.",
+  "description": "Extension pour la maquette a4 ms-vision",
   "license": "CC",
   "dependencies": {
     "core": "*"
-    "huskylens2": "https://github.com/DFRobot/pxt-DFRobot_HuskyLensV2"
-  },
+      },
   "files": [
     "lcdDisplay.ts",
     "README.md"
