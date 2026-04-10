@@ -4,7 +4,7 @@
   "description": "Extension pour la maquette a4 ms-vision",
   "license": "CC",
   "dependencies": {
-      "*": 
+      "core": "*"
       },
   "files": [
     "lcdDisplay.ts",
