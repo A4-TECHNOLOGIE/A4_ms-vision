@@ -41,7 +41,7 @@ const enum LCDWidgetCategoryTwo {
     Gif = 13,
 }
 
-//% block="ColorScreen"
+//% block="a4 ms-vision"
 //% weight=100 color=#5b3fe8 icon="\uf022"
 //% groups="['Basics', 'Graph', "Widget"]"
 namespace a4_ms_vision {
