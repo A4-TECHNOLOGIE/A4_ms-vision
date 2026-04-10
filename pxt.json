@@ -1,5 +1,5 @@
 {
-  "name": "lcdDisplay-uart",
+  "name": "a4 ms-vision",
   "version": "0.1.0",
   "description": "Fork MakeCode for DFRobot DFR0997 ColorScreen with added UART initialization while preserving existing API.",
   "license": "CC",
