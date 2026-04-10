@@ -44,7 +44,7 @@ const enum LCDWidgetCategoryTwo {
 //% block="ColorScreen"
 //% weight=100 color=#5b3fe8 icon="\uf022"
 //% groups="['Basics', 'Graph', "Widget"]"
-namespace lcdDisplay {
+namespace a4_ms_vision {
 
     export enum FontSize {
         //% block="Large"
