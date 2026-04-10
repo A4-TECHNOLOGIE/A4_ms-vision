@@ -5,7 +5,7 @@
   "license": "CC",
   "dependencies": {
     "core": "*"
-    "huskylens2": "github:DFRobot/pxt-DFRobot_HuskyLensV2"
+    "huskylens2": "https://github.com/DFRobot/pxt-DFRobot_HuskyLensV2"
   },
   "files": [
     "lcdDisplay.ts",
