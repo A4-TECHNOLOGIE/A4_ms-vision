@@ -300,24 +300,22 @@ namespace lcdDisplay {
         basic.pause(1000);
         
     }
-
     /**
-     * Initialize the ColorScreen over UART.
-     * Set the display DIP switch to Serial/UART mode before calling this.
+     * Initialize the display over UART/Serial at 9600 baud.
+     * Recommended default.
      */
-    //% block="ColorScreen UART initialization TX %tx RX %rx baud %baud"
+    //% block="ColorScreen UART initialization TX %tx RX %rx"
     //% tx.defl=SerialPin.P8
     //% rx.defl=SerialPin.P12
-    //% baud.defl=BaudRate.BaudRate115200
-    //% weight=99
+    //% weight=100
     //% group="Basics"
-    export function lcdInitUART(tx: SerialPin, rx: SerialPin, baud: BaudRate) {
+    export function lcdInitUART9600(tx: SerialPin, rx: SerialPin) {
         creatList();
-        serial.redirect(tx, rx, baud);
+        serial.redirect(tx, rx, BaudRate.BaudRate9600);
         protocol = Protocol.Serial;
         basic.pause(1000);
     }
-
+    
     /**
      * ...
      */
