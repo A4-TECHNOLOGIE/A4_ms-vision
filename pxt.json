@@ -4,7 +4,8 @@
   "description": "Extension pour la maquette a4 ms-vision",
   "license": "CC",
   "dependencies": {
-      "core": "*"
+      "core": "*",
+      "huskylens2": "github:DFRobot/pxt-DFRobot_HuskyLensV2"
       },
   "files": [
     "lcdDisplay.ts",
